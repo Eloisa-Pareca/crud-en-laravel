@@ -13,7 +13,7 @@ Route::get('/index', function () {
 });
 
 // El "Súper Poder": 7 rutas en 1 para tu CRUD
-Route::resource('agenda', DireccionController::class)
+Route::resource('/', DireccionController::class)
     ->except(['show']);// Ruta principal que redirige a la agenda
 Route::get('/show', function () {
     return redirect()->route('agenda.show');
