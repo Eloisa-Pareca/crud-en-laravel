@@ -4,7 +4,7 @@ use App\Http\Controllers\DireccionController;
 use Illuminate\Support\Facades\Route;
 
 //Route::get('/', function () {
- //   return view('welcome');
+ //   return view('agenda.show');
 
 //});
 // Ruta principal que redirige a la agenda
